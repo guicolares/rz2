@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Unit" representedClassName="Unit" syncable="YES" codeGenerationType="class">
+        <attribute name="additional_fields" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checklists_ids" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qr_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regions_ids" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Unit" positionX="-63" positionY="-18" width="128" height="255"/>
+    </elements>
+</model>

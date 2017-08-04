@@ -11,11 +11,6 @@ import CoreData
 
 class RZ2Manager {
     var URL = "http://54.208.92.83/checklist_novo/Application/public/mobile/"
-
-
-    let HEADER = ["token": "MKAt4QEqrzDss0WxosON9hl2csfI3jkk"]
-    let SUCCESS_STATUS = "success"
-    let ERROR_STATUS = "error"
     
     func login(_ params: Dictionary<String, String>, result: @escaping (_ success: Bool?, _ error: NSError?) -> Void ){
         self.URL += "login"
